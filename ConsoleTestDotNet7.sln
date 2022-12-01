@@ -5,6 +5,14 @@ VisualStudioVersion = 25.0.1704.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleTestDotNet7", "ConsoleTestDotNet7\ConsoleTestDotNet7.csproj", "{1FDF523C-FC13-4DCF-B24B-5CCF79AD49F3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleTestDotNet7Tests", "ConsoleTestDotNet7Tests\ConsoleTestDotNet7Tests.csproj", "{B3C028BA-4CA4-4C1B-872D-AB43B8584187}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D6384657-68D6-442B-A903-C49B463B5729}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+		License.txt = License.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +23,10 @@ Global
 		{1FDF523C-FC13-4DCF-B24B-5CCF79AD49F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1FDF523C-FC13-4DCF-B24B-5CCF79AD49F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1FDF523C-FC13-4DCF-B24B-5CCF79AD49F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3C028BA-4CA4-4C1B-872D-AB43B8584187}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3C028BA-4CA4-4C1B-872D-AB43B8584187}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3C028BA-4CA4-4C1B-872D-AB43B8584187}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3C028BA-4CA4-4C1B-872D-AB43B8584187}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

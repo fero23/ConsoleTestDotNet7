@@ -7,4 +7,14 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Algorithms\" />
+    <None Remove="Algorithms\Sorting\" />
+    <None Remove="Algorithms\Searching\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Algorithms\" />
+    <Folder Include="Algorithms\Sorting\" />
+    <Folder Include="Algorithms\Searching\" />
+  </ItemGroup>
 </Project>
