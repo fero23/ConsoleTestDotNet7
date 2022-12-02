@@ -27,11 +27,13 @@
     <None Remove="Algorithms\Sorting\" />
     <None Remove="Bogus" />
     <None Remove="Algorithms\Searching\" />
+    <None Remove="Algorithms\Collections\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Algorithms\" />
     <Folder Include="Algorithms\Sorting\" />
     <Folder Include="Algorithms\Searching\" />
+    <Folder Include="Algorithms\Collections\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ConsoleTestDotNet7\ConsoleTestDotNet7.csproj" />
