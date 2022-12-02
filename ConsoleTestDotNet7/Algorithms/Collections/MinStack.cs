@@ -11,6 +11,8 @@ namespace ConsoleTestDotNet7.Algorithms.Collections
 
 		public T? Minimum { get; set; }
 
+		public int Capacity => _buffer?.Length ?? 0;
+
 		public void Push(T element)
 		{
 			if (_buffer == null || _buffer.Length < Count + 1)
@@ -28,11 +30,14 @@ namespace ConsoleTestDotNet7.Algorithms.Collections
 			}
 		}
 
-		public void Pop()
+		public T? Pop()
 		{
 			if (Count > 0)
 			{
+				var lastValue = _buffer![Count - 1];
+
                 Count -= 1;
+
 				if (Count > 1)
 				{
 					Minimum = _buffer![0];
@@ -48,7 +53,11 @@ namespace ConsoleTestDotNet7.Algorithms.Collections
 				{
 					Minimum = default(T);
 				}
+
+				return lastValue;
             }
+
+			return default(T);
 		}
 
 		private void RealocateBuffer()
